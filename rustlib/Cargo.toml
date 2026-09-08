@@ -1,0 +1,15 @@
+[package]
+name = "rustlib"
+version = "0.1.0"
+edition = "2024"
+
+
+[lib]
+crate-type = [
+    "staticlib", # for iOS
+    "cdylib"    # for Android
+]
+
+
+[dependencies]
+jni = "0.21.1"

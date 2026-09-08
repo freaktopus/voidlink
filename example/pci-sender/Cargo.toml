@@ -1,0 +1,10 @@
+[package]
+name = "pci-sender"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bluer = "0.17"        
+tokio = { version = "1.48", features = ["full"] }  # Async runtime
+futures = "0.3"       # Optional, only if you need futures utilities
+

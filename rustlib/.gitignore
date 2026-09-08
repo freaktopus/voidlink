@@ -1,0 +1,31 @@
+# Compiled files
+target/
+**/*.rs.bk
+
+# Cargo package files
+*.crate
+
+# If this is a library, you may ignore Cargo.lock
+# But for applications, you usually keep it.
+# Uncomment the next line if it's a library repo:
+# Cargo.lock
+
+# Rust toolchain files
+rust-toolchain.toml
+rust-toolchain
+
+# IDE / Editor settings
+# VS Code
+.vscode/
+# IntelliJ / RustRover
+.idea/
+*.iml
+
+# Backup and temp files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
